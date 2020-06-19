@@ -10,8 +10,8 @@ public class ConverterTest {
 
     @Test
     public void shouldReturnCelsiusWhenFarenheitIsInput() {
-        double farenheitInput = 105;
-        double expectedCelsiusResult = 100;
+        double farenheitInput = 77;
+        double expectedCelsiusResult = 25;
 
         assertEquals(expectedCelsiusResult,
                      converter.convertFarenheitCelsius(farenheitInput), 0.02);
@@ -19,8 +19,8 @@ public class ConverterTest {
 
     @Test
     public void shouldReturnFarenheitWhenCelciusIsInput() {
-        double expectedFarenheitResult = 105;
-        double celsiusInput = 23.88;
+        double expectedFarenheitResult = 77;
+        double celsiusInput = 25;
 
         assertEquals(expectedFarenheitResult,
                 converter.convertCelsiusFarenheit(celsiusInput), 0.02);
