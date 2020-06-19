@@ -14,7 +14,7 @@ public class ConverterTest {
         double expectedCelsiusResult = 100;
 
         assertEquals(expectedCelsiusResult,
-                converter.convertFarenheitCelsius(farenheitInput), 0.02);
+                     converter.convertFarenheitCelsius(farenheitInput), 0.02);
     }
 
     @Test
